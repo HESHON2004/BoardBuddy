@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Customer Notifications</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <h2>Customer Notifications</h2>
+  <div class="notifications"></div>
+
+  <!-- Delete Modal -->
+  <div id="deleteModal" class="modal">
+    <div class="modal-content">
+      <h3>Delete Notification</h3>
+      <p>Are you sure you want to delete this notification?</p>
+      <button id="confirmDelete">Yes</button>
+      <button id="cancelDelete">No</button>
+    </div>
+  </div>
+
+  <script>
+    const userType = "customer"; // Important
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
